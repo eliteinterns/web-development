@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Spring Dance",
+        "month": "May",
+        "day": "10",
+        "summary": "Annual spring celebration with music, food, and fun activities.",
+        "details": "Join us for our annual Spring Dance on May 10th from 7-10 PM in the school gymnasium. Tickets are $10 and include refreshments. Dress code is semi-formal. All proceeds will go toward senior graduation activities."
+    },
+    {
+        "title": "Community Service Day",
+        "month": "May",
+        "day": "15",
+        "summary": "Join us for a day of giving back to our local community.",
+        "details": "Meet at the school parking lot at 9 AM on May 15th. We will be cleaning up the local park and planting flowers at the community center. Lunch will be provided. Please bring gloves and water bottles. Service hours will be awarded."
+    },
+    {
+        "title": "End of Year Assembly",
+        "month": "May",
+        "day": "25",
+        "summary": "Celebrating student achievements and recognizing volunteers.",
+        "details": "The assembly will take place in the auditorium on May 25th during periods 3 and 4. We will be recognizing outstanding students, presenting club achievements, and enjoying performances from our music and drama departments."
+    }
+]

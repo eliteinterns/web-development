@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Alex Johnson",
+        "title": "Chief AI Officer, TechFuture",
+        "image": "https://placehold.co/300x300",
+        "links": {
+            "website": "#",
+            "linkedin": "#",
+            "email": "#"
+        }
+    },
+    {
+        "name": "Sarah Miller",
+        "title": "Quantum Computing Researcher",
+        "image": "https://placehold.co/300x300",
+        "links": {
+            "website": "#",
+            "linkedin": "#",
+            "email": "#"
+        }
+    },
+    {
+        "name": "David Wong",
+        "title": "Blockchain Evangelist",
+        "image": "https://placehold.co/300x300",
+        "links": {
+            "website": "#",
+            "linkedin": "#",
+            "email": "#"
+        }
+    },
+    {
+        "name": "Priya Patel",
+        "title": "Cybersecurity Expert",
+        "image": "https://placehold.co/300x300",
+        "links": {
+            "website": "#",
+            "linkedin": "#",
+            "email": "#"
+        }
+    }
+]

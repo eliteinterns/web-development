@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    overflow-y: auto;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .loader {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+  }
+  

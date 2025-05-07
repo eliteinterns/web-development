@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Council</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+        <div class="logo">Central High Student Council</div>
+        <p>Leading Together, Growing Together</p>
+    </header>
+    
+    <!--==================== NAV ====================-->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!--==================== HERO ====================-->
+        <section id="home" class="hero">
+            <h1>Welcome to Our Student Council</h1>
+            <p>We are dedicated to enhancing student life and building a stronger school community through leadership, service, and advocacy.</p>
+        </section>
+        
+        <!--==================== ABOUT ====================-->
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>The Student Council serves as the voice of the student body, working closely with faculty and administration to create positive changes within our school. We organize events, address student concerns, and promote school spirit.</p>
+            <p>Our mission is to foster a vibrant school community where every student feels valued and represented. Through dedicated service and leadership, we strive to make our school a better place for everyone.</p>
+        </section>
+        
+        <!--==================== TEAM ====================-->
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://placehold.co/400x200" alt="President">
+                    </div>
+                    <div class="member-info">
+                        <h3>Jordan Smith</h3>
+                        <p>President</p>
+                        <p>Senior, Class of 2026</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://placehold.co/400x200" alt="Vice President">
+                    </div>
+                    <div class="member-info">
+                        <h3>Alex Johnson</h3>
+                        <p>Vice President</p>
+                        <p>Junior, Class of 2027</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://placehold.co/400x200" alt="Secretary">
+                    </div>
+                    <div class="member-info">
+                        <h3>Taylor Wilson</h3>
+                        <p>Secretary</p>
+                        <p>Senior, Class of 2026</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://placehold.co/400x200" alt="Treasurer">
+                    </div>
+                    <div class="member-info">
+                        <h3>Morgan Lee</h3>
+                        <p>Treasurer</p>
+                        <p>Junior, Class of 2027</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== EVENTS ====================-->
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            
+            <ul class="events-list"></ul>
+        </section>
+        
+        <!--==================== CONTACT ====================-->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form" id="contact-form" autocomplete="on">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required autocomplete="name">
+                </div>
+              
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required autocomplete="email">
+                </div>
+              
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required autocomplete="off">
+                </div>
+              
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required autocomplete="off"></textarea>
+                </div>
+              
+                <button type="submit" id="submit-form">Send Message</button>
+            </form>
+              
+        </section>
+    </main>
+    
+    <!--==================== FOOTER ====================-->
+    <footer>
+        <p>Central High Student Council &copy; 2025</p>
+        <ul class="social-links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+        <p>Email: studentcouncil@centralhs.edu</p>
+    </footer>
+    
+    <!--==================== MODAL ====================-->
+    <div class="modal" id="event-modal">
+        <div class="modal-content">
+            <h2 id="modal-title"></h2>
+            <p id="modal-details"></p>
+            <button class="close-modal">Close</button>
+        </div>
+    </div>
+    
+    <!--==================== BACK TO TOP ====================-->
+    <a href="#" class="back-to-top">↑</a>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
