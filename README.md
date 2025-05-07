@@ -74,17 +74,17 @@ Explore hands-on demos of popular open-source libraries:
 | -------------- | ---------------------------------------- | --------- | --------- |
 | Animate.css    | Easy-to-use CSS animations               | [Demo](https://web.eliteinterns.in/libraries/Animate) | [Code](./libraries/Animate/) |
 | Chart.js       | Interactive charts and visual data       | [Demo](https://web.eliteinterns.in/libraries/Chart) | [Code](./libraries/Chart/) |
-| Fuse.js        | Lightweight fuzzy search                 | [Demo](https://web.eliteinterns.in/Fuse) | [Code](./libraries/Fuse/) |
-| GLightbox      | Responsive lightbox for images/videos    | [Demo](https://web.eliteinterns.in/GLightbox) | [Code](./libraries/GLightbox/) |
-| InfiniteScroll | Infinite scroll content loading          | [Demo](https://web.eliteinterns.in/InfiniteScroll) | [Code](./libraries/InfiniteScroll/) |
-| JustValidate   | Easy and flexible form validation        | [Demo](https://web.eliteinterns.in/JustValidate) | [Code](./libraries/JustValidate/) |
-| Leaflet        | Interactive maps with markers            | [Demo](https://web.eliteinterns.in/Leaflet) | [Code](./libraries/Leaflet/) |
-| Lozad.js       | Lazy loading for images and components   | [Demo](https://web.eliteinterns.in/Lozad) | [Code](./libraries/Lozad/) |
-| Masonry        | Grid layout with automatic reordering    | [Demo](https://web.eliteinterns.in/Masonry) | [Code](./libraries/Masonry/) |
-| Plyr           | Media player with custom controls        | [Demo](https://web.eliteinterns.in/Plyr) | [Code](./libraries/Plyr/) |
-| ScrollReveal   | Reveal animations on scroll              | [Demo](https://web.eliteinterns.in/ScrollReveal) | [Code](./libraries/ScrollReveal/) |
-| SweetAlert2    | Customizable alert boxes                 | [Demo](https://web.eliteinterns.in/SweetAlert2) | [Code](./libraries/SweetAlert2/) |
-| Swiper         | Touch-enabled sliders for mobile and web | [Demo](https://web.eliteinterns.in/swiper) | [Code](./libraries/swiper/) |
+| Fuse.js        | Lightweight fuzzy search                 | [Demo](https://web.eliteinterns.in/libraries/Fuse) | [Code](./libraries/Fuse/) |
+| GLightbox      | Responsive lightbox for images/videos    | [Demo](https://web.eliteinterns.in/libraries/GLightbox) | [Code](./libraries/GLightbox/) |
+| InfiniteScroll | Infinite scroll content loading          | [Demo](https://web.eliteinterns.in/libraries/InfiniteScroll) | [Code](./libraries/InfiniteScroll/) |
+| JustValidate   | Easy and flexible form validation        | [Demo](https://web.eliteinterns.in/libraries/JustValidate) | [Code](./libraries/JustValidate/) |
+| Leaflet        | Interactive maps with markers            | [Demo](https://web.eliteinterns.in/libraries/Leaflet) | [Code](./libraries/Leaflet/) |
+| Lozad.js       | Lazy loading for images and components   | [Demo](https://web.eliteinterns.in/libraries/Lozad) | [Code](./libraries/Lozad/) |
+| Masonry        | Grid layout with automatic reordering    | [Demo](https://web.eliteinterns.in/libraries/Masonry) | [Code](./libraries/Masonry/) |
+| Plyr           | Media player with custom controls        | [Demo](https://web.eliteinterns.in/libraries/Plyr) | [Code](./libraries/Plyr/) |
+| ScrollReveal   | Reveal animations on scroll              | [Demo](https://web.eliteinterns.in/libraries/ScrollReveal) | [Code](./libraries/ScrollReveal/) |
+| SweetAlert2    | Customizable alert boxes                 | [Demo](https://web.eliteinterns.in/libraries/SweetAlert2) | [Code](./libraries/SweetAlert2/) |
+| Swiper         | Touch-enabled sliders for mobile and web | [Demo](https://web.eliteinterns.in/libraries/swiper) | [Code](./libraries/swiper/) |
 
 > 📁 Each library folder includes: `index.html`, `style.css`, `script.js`, and `data.json` (if needed)
 
@@ -94,16 +94,16 @@ Real-world, beginner-friendly projects built during the internship:
 
 | Project Name               | Description                                   | Demo Link | Source    |
 | -------------------------- | --------------------------------------------- | --------- | --------- |
-| Campus Club Website        | For student clubs to share updates            | [Demo](https://web.eliteinterns.in/club) | [Code](./projects/club/) |
-| Local Business Website     | Homepage for small businesses                 | [Demo](https://web.eliteinterns.in/business) | [Code](./projects/business/) |
-| Startup Landing Page       | Hero layout with sections and animations      | [Demo](https://web.eliteinterns.in/startup) | [Code](./projects/startup/) |
-| College Department Website | Academic info, staff, and department sections | [Demo](https://web.eliteinterns.in/college) | [Code](./projects/college/) |
-| Freelancer Portfolio       | Portfolio site with projects and resume       | [Demo](https://web.eliteinterns.in/freelancer) | [Code](./projects/freelancer/) |
-| Tech Conference Site       | Agenda, speaker details, and registration     | [Demo](https://web.eliteinterns.in/conference) | [Code](./projects/conference/) |
-| Art/Photography Portfolio  | Gallery with filterable categories            | [Demo](https://web.eliteinterns.in/photography) | [Code](./projects/photography/) |
-| Hackathon/TechFest Site    | Event highlights and real-time updates        | [Demo](https://web.eliteinterns.in/hackathon) | [Code](./projects/hackathon/) |
-| Campus Canteen Website     | Digital menu and order simulation             | [Demo](https://web.eliteinterns.in/canteen) | [Code](./projects/canteen/) |
-| Student Council Website    | Event posts, voting interface, and polls      | [Demo](https://web.eliteinterns.in/council) | [Code](./projects/council/) |
+| Campus Club Website        | For student clubs to share updates            | [Demo](https://web.eliteinterns.in/projects/club) | [Code](./projects/club/) |
+| Local Business Website     | Homepage for small businesses                 | [Demo](https://web.eliteinterns.in/projects/business) | [Code](./projects/business/) |
+| Startup Landing Page       | Hero layout with sections and animations      | [Demo](https://web.eliteinterns.in/projects/startup) | [Code](./projects/startup/) |
+| College Department Website | Academic info, staff, and department sections | [Demo](https://web.eliteinterns.in/projects/college) | [Code](./projects/college/) |
+| Freelancer Portfolio       | Portfolio site with projects and resume       | [Demo](https://web.eliteinterns.in/projects/freelancer) | [Code](./projects/freelancer/) |
+| Tech Conference Site       | Agenda, speaker details, and registration     | [Demo](https://web.eliteinterns.in/projects/conference) | [Code](./projects/conference/) |
+| Art/Photography Portfolio  | Gallery with filterable categories            | [Demo](https://web.eliteinterns.in/projects/photography) | [Code](./projects/photography/) |
+| Hackathon/TechFest Site    | Event highlights and real-time updates        | [Demo](https://web.eliteinterns.in/projects/hackathon) | [Code](./projects/hackathon/) |
+| Campus Canteen Website     | Digital menu and order simulation             | [Demo](https://web.eliteinterns.in/projects/canteen) | [Code](./projects/canteen/) |
+| Student Council Website    | Event posts, voting interface, and polls      | [Demo](https://web.eliteinterns.in/projects/council) | [Code](./projects/council/) |
 
 > ✅ All projects follow clean, modular code using HTML, CSS, JS, and optionally JSON for dynamic content.
 
