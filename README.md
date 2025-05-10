@@ -10,12 +10,12 @@ Welcome to the official repository of **EliteInterns** – a curated set of web 
 
 | Folder         | Description                                                      | Open      | Section   |
 |----------------|------------------------------------------------------------------| --------- | --------- |
-| [`HTML/`](./html/)        | 📘 Fundamentals of HTML – tags, structure, forms, tables, and layout    | —         | [🔽 Jump](#📚-internship-notes-html-css-js-json) |
-| [`CSS/`](./css/)         | 🎨 Styling concepts – selectors, Flexbox, Grid, transitions, media     | —         | [🔽 Jump](#📚-internship-notes-html-css-js-json) |
-| [`JavaScript/`](./javascript/)  | ⚙️ JS syntax, variables, functions, conditionals, DOM manipulation, events,                 | —         | [🔽 Jump](#📚-internship-notes-html-css-js-json) |
-| [`JSON/`](./json/)        | 🧩 Using JSON for structured data, form storage, dynamic web content                        | —         | [🔽 Jump](#📚-internship-notes-html-css-js-json) |
-| [`Libraries/`](./libraries/)   | 🚀 Featured 16+ JS libraries – Chart.js, Swiper.js, SweetAlert2, Leaflet, and    | [📂 Open](./libraries/) | [🔽 Jump](#🚀-featured-javascript-libraries) |
-| [`Projects/`](./projects/)    | 🔧 10 Mini-Projects – complete working code with clean structure, UI, and      | [📂 Open](./projects/) | [🔽 Jump](#💼-internship-mini-projects) |
+| [`HTML/`](./html/)        | 📘 Fundamentals of HTML – tags, structure, forms, tables, and layout    | —         | [Jump](#-internship-notes-html-css-js-json) |
+| [`CSS/`](./css/)         | 🎨 Styling concepts – selectors, Flexbox, Grid, transitions, media     | —         | [Jump](#-internship-notes-html-css-js-json) |
+| [`JavaScript/`](./javascript/)  | ⚙️ JS syntax, variables, functions, conditionals, DOM manipulation, events,                 | —         | [Jump](#-internship-notes-html-css-js-json) |
+| [`JSON/`](./json/)        | 🧩 Using JSON for structured data, form storage, dynamic web content                        | —         | [Jump](#-internship-notes-html-css-js-json) |
+| [`Libraries/`](./libraries/)   | 🚀 Featured 16+ JS libraries – Chart.js, Swiper.js, SweetAlert2, Leaflet, and    | [Open](./libraries/) | [Jump](#-featured-javascript-libraries) |
+| [`Projects/`](./projects/)    | 🔧 10 Mini-Projects – complete working code with clean structure, UI, and      | [Open](./projects/) | [Jump](#-internship-mini-projects) |
 
 
 ## 🛠️ Installation & Usage
