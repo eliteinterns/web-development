@@ -1,131 +1,159 @@
-![Preview](html/images/internship.png)
+# 🚀 EliteInterns | Web Development
 
-# 🌐 EliteInterns – Web Development Internship Notes & Projects
+<div align="center">
+  
+  ![EliteInterns Banner](assets/images/internship.png)
+  
+  **Master web development through hands-on learning, practical projects, and library demos**
+  
+  [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Welcome to the official repository of **EliteInterns** – a curated set of web development notes, library demos, and project showcases tailored for internship learners and aspiring developers.
+</div>
 
-> ⚠️ This repository is designed for **learning and reference purposes** only. It is **not production-ready** code.
+## ✨ Overview
 
-## 📁 Repository Structure
+Welcome to **EliteInterns** – your comprehensive resource for web development mastery! This repository combines structured learning materials, interactive library demonstrations, and real-world projects designed to accelerate your journey from intern to professional developer.
 
-| Folder         | Description                                                      | Open      | Section   |
-|----------------|------------------------------------------------------------------| --------- | --------- |
-| [`HTML/`](./html/)        | 📘 Fundamentals of HTML – tags, structure, forms, tables, and layout    | —         | [Jump](#-internship-notes-html-css-js-json) |
-| [`CSS/`](./css/)         | 🎨 Styling concepts – selectors, Flexbox, Grid, transitions, media     | —         | [Jump](#-internship-notes-html-css-js-json) |
-| [`JavaScript/`](./javascript/)  | ⚙️ JS syntax, variables, functions, conditionals, DOM manipulation, events,                 | —         | [Jump](#-internship-notes-html-css-js-json) |
-| [`JSON/`](./json/)        | 🧩 Using JSON for structured data, form storage, dynamic web content                        | —         | [Jump](#-internship-notes-html-css-js-json) |
-| [`Libraries/`](./libraries/)   | 🚀 Featured 16+ JS libraries – Chart.js, Swiper.js, SweetAlert2, Leaflet, and    | [Open](./libraries/) | [Jump](#-featured-javascript-libraries) |
-| [`Projects/`](./projects/)    | 🔧 10 Mini-Projects – complete working code with clean structure, UI, and      | [Open](./projects/) | [Jump](#-internship-mini-projects) |
+> ⚠️ This repository is designed for **learning and reference purposes** only. The code examples are optimized for clarity rather than production readiness.
 
+## 🗂️ Repository Structure
 
-## 🛠️ Installation & Usage
+| Section | Description | Links |
+|---------|-------------|-------|
+| **Core Web Technologies** | Foundational knowledge and examples | [Explore](#-internship-notes-html-css-js-json) |
+| **JavaScript Libraries** | Interactive demos of popular libraries | [Explore](#-featured-javascript-libraries) |
+| **Mini-Projects** | Complete, real-world applications | [Explore](#-internship-mini-projects) |
 
-### 1. Clone the repository
+## 🛠️ Getting Started
+
+### 1. Quick Setup
 
 ```bash
+# Clone the repository
 git clone https://github.com/eliteinterns/web-development.git
-````
 
-### 2. Navigate to the directory
-
-```bash
+# Navigate to the directory
 cd web-development
 ```
 
-### 3. Run in the browser
+### 2. Focus on a Specific Project or Library
+
+Want to isolate a specific project or library? We've made it simple:
+
+```bash
+.\run-setup.bat
+```
+
+> 🧩 When prompted, enter the folder name from `Libraries/` or `Projects/` (e.g., `chart`, `business`, `validator`, etc.).
+>
+> This will:
+>
+> * Move that folder’s contents to the root directory
+> * Delete all other files and folders
+> * Rename the root folder to match the selected name
+> * Automatically delete the setup script afterward
+
+### 3. Run in the Browser
 
 > No build tools required – just open any `index.html` file directly in your browser.
 
-* **Project demos**: `Projects/Project-Name/index.html`
-* **Library demos**: `Libraries/Library-Name/index.html`
-* **Notes & examples**: Explore markdown or HTML files in the respective folders.
+- **Projects**: `Projects/Project-Name/index.html`
+- **Library demos**: `Libraries/Library-Name/index.html`
+- **Learning materials**: Explore markdown or HTML files in respective folders
 
-### 4. Optional: Use a local server
+### 4. Using a Local Server (Optional)
 
-Some demos (e.g., those using `fetch()` for JSON) may need a local server:
+For demos using `fetch()` or other features requiring a server:
 
 ```bash
-# Python
+# Using Python
 python3 -m http.server
 
-# Or use VS Code Live Server extension
+# Or simply use VS Code's Live Server extension
 ```
 
-## 📚 Internship Notes HTML, CSS, JS, JSON
+## 📚 Internship Notes: HTML, CSS, JS, JSON
 
 Each topic includes:
 
-* ✅ Code snippets with inline comments
-* 🖼️ Output screenshots or previews
-* 📌 Quick usage tips
+- ✅ **Practical code snippets** with clear explanations
+- 🖼️ **Visual examples** showing implementation results
+- 📌 **Best practice tips** for professional development
 
-| Topic      | Purpose                                       | Demo Link |
-| ---------- | --------------------------------------------- | --------- |
-| HTML       | Web page structure and semantic tags          | [Demo](https://web.eliteinterns.in/html) |
-| CSS        | Styling, positioning, and responsive design   | [Demo](https://web.eliteinterns.in/css) |
-| JavaScript | DOM interaction and client-side behavior      | [Demo](https://web.eliteinterns.in/javascript) |
-| JSON       | Data handling for dynamic content and storage | [Demo](https://web.eliteinterns.in/json) |
+| Technology | What You'll Learn | Interactive Demo |
+|------------|-------------------|------------------|
+| **HTML** | Semantic structure, forms, tables, and modern layout techniques | [View Demo](https://web.eliteinterns.in/html) |
+| **CSS** | Selectors, Flexbox, Grid, animations, and responsive design principles | [View Demo](https://web.eliteinterns.in/css) |
+| **JavaScript** | DOM manipulation, events, functions, and dynamic content creation | [View Demo](https://web.eliteinterns.in/javascript) |
+| **JSON** | Data structures, storage patterns, and integration with web applications | [View Demo](https://web.eliteinterns.in/json) |
 
 ## 🚀 Featured JavaScript Libraries
 
-Explore hands-on demos of popular open-source libraries:
+Master these powerful tools through hands-on examples:
 
-| Library        | Purpose                                  | Demo Link | Source    |
-| -------------- | ---------------------------------------- | --------- | --------- |
-| Animate.css    | Easy-to-use CSS animations               | [Demo](https://web.eliteinterns.in/libraries/Animate) | [Code](./libraries/Animate/) |
-| Chart.js       | Interactive charts and visual data       | [Demo](https://web.eliteinterns.in/libraries/Chart) | [Code](./libraries/Chart/) |
-| Fuse.js        | Lightweight fuzzy search                 | [Demo](https://web.eliteinterns.in/libraries/Fuse) | [Code](./libraries/Fuse/) |
-| GLightbox      | Responsive lightbox for images/videos    | [Demo](https://web.eliteinterns.in/libraries/GLightbox) | [Code](./libraries/GLightbox/) |
-| InfiniteScroll | Infinite scroll content loading          | [Demo](https://web.eliteinterns.in/libraries/InfiniteScroll) | [Code](./libraries/InfiniteScroll/) |
-| JustValidate   | Easy and flexible form validation        | [Demo](https://web.eliteinterns.in/libraries/JustValidate) | [Code](./libraries/JustValidate/) |
-| Leaflet        | Interactive maps with markers            | [Demo](https://web.eliteinterns.in/libraries/Leaflet) | [Code](./libraries/Leaflet/) |
-| Lozad.js       | Lazy loading for images and components   | [Demo](https://web.eliteinterns.in/libraries/Lozad) | [Code](./libraries/Lozad/) |
-| Masonry        | Grid layout with automatic reordering    | [Demo](https://web.eliteinterns.in/libraries/Masonry) | [Code](./libraries/Masonry/) |
-| Plyr           | Media player with custom controls        | [Demo](https://web.eliteinterns.in/libraries/Plyr) | [Code](./libraries/Plyr/) |
-| ScrollReveal   | Reveal animations on scroll              | [Demo](https://web.eliteinterns.in/libraries/ScrollReveal) | [Code](./libraries/ScrollReveal/) |
-| SweetAlert2    | Customizable alert boxes                 | [Demo](https://web.eliteinterns.in/libraries/SweetAlert2) | [Code](./libraries/SweetAlert2/) |
-| Swiper         | Touch-enabled sliders for mobile and web | [Demo](https://web.eliteinterns.in/libraries/swiper) | [Code](./libraries/swiper/) |
+| Library | What It Does | Live Demo | Source Code |
+|---------|--------------|------|-------------|
+| **Animate.css** | Add delightful animations with minimal effort | [See It Live](https://web.eliteinterns.in/libraries/Animate) | [Explore Code](./libraries/Animate/) |
+| **Chart.js** | Create stunning data visualizations and interactive charts | [See It Live](https://web.eliteinterns.in/libraries/Chart) | [Explore Code](./libraries/Chart/) |
+| **Fuse.js** | Implement lightning-fast fuzzy search functionality | [See It Live](https://web.eliteinterns.in/libraries/Fuse) | [Explore Code](./libraries/Fuse/) |
+| **GLightbox** | Display media content in beautiful, responsive lightboxes | [See It Live](https://web.eliteinterns.in/libraries/GLightbox) | [Explore Code](./libraries/GLightbox/) |
+| **InfiniteScroll** | Load content seamlessly as users scroll down the page | [See It Live](https://web.eliteinterns.in/libraries/InfiniteScroll) | [Explore Code](./libraries/InfiniteScroll/) |
+| **JustValidate** | Create intuitive form validation with minimal setup | [See It Live](https://web.eliteinterns.in/libraries/JustValidate) | [Explore Code](./libraries/JustValidate/) |
+| **Leaflet** | Integrate interactive maps with custom markers and overlays | [See It Live](https://web.eliteinterns.in/libraries/Leaflet) | [Explore Code](./libraries/Leaflet/) |
+| **Lozad.js** | Boost performance with intelligent lazy loading | [See It Live](https://web.eliteinterns.in/libraries/Lozad) | [Explore Code](./libraries/Lozad/) |
+| **Masonry** | Create dynamic, responsive grid layouts that adapt to content | [See It Live](https://web.eliteinterns.in/libraries/Masonry) | [Explore Code](./libraries/Masonry/) |
+| **Plyr** | Customize media players with an elegant, accessible interface | [See It Live](https://web.eliteinterns.in/libraries/Plyr) | [Explore Code](./libraries/Plyr/) |
+| **ScrollReveal** | Craft engaging scroll-based animations and reveals | [See It Live](https://web.eliteinterns.in/libraries/ScrollReveal) | [Explore Code](./libraries/ScrollReveal/) |
+| **SweetAlert2** | Replace boring alerts with beautiful, customizable dialogs | [See It Live](https://web.eliteinterns.in/libraries/SweetAlert2) | [Explore Code](./libraries/SweetAlert2/) |
+| **Swiper** | Build touch-enabled sliders and carousels for any device | [See It Live](https://web.eliteinterns.in/libraries/swiper) | [Explore Code](./libraries/swiper/) |
 
-> 📁 Each library folder includes: `index.html`, `style.css`, `script.js`, and `data.json` (if needed)
+> 💡 Each library demo includes complete setup instructions, common use cases, and customization options.
 
-## 💼 Internship Mini Projects
+## 💼 Internship Mini-Projects
 
-Real-world, beginner-friendly projects built during the internship:
+Build your portfolio with these professionally designed projects:
 
-| Project Name               | Description                                   | Demo Link | Source    |
-| -------------------------- | --------------------------------------------- | --------- | --------- |
-| Campus Club Website        | For student clubs to share updates            | [Demo](https://web.eliteinterns.in/projects/club) | [Code](./projects/club/) |
-| Local Business Website     | Homepage for small businesses                 | [Demo](https://web.eliteinterns.in/projects/business) | [Code](./projects/business/) |
-| Startup Landing Page       | Hero layout with sections and animations      | [Demo](https://web.eliteinterns.in/projects/startup) | [Code](./projects/startup/) |
-| College Department Website | Academic info, staff, and department sections | [Demo](https://web.eliteinterns.in/projects/college) | [Code](./projects/college/) |
-| Freelancer Portfolio       | Portfolio site with projects and resume       | [Demo](https://web.eliteinterns.in/projects/freelancer) | [Code](./projects/freelancer/) |
-| Tech Conference Site       | Agenda, speaker details, and registration     | [Demo](https://web.eliteinterns.in/projects/conference) | [Code](./projects/conference/) |
-| Art/Photography Portfolio  | Gallery with filterable categories            | [Demo](https://web.eliteinterns.in/projects/photography) | [Code](./projects/photography/) |
-| Hackathon/TechFest Site    | Event highlights and real-time updates        | [Demo](https://web.eliteinterns.in/projects/hackathon) | [Code](./projects/hackathon/) |
-| Campus Canteen Website     | Digital menu and order simulation             | [Demo](https://web.eliteinterns.in/projects/canteen) | [Code](./projects/canteen/) |
-| Student Council Website    | Event posts, voting interface, and polls      | [Demo](https://web.eliteinterns.in/projects/council) | [Code](./projects/council/) |
+| Project | Description | Live Demo | Source Code |
+|---------|-------------|-----------|-------------|
+| **Local Business Website** | Conversion-focused site for small businesses with services, testimonials, and contact forms | [See It Live](https://web.eliteinterns.in/projects/business) | [Explore Code](./projects/business/) |
+| **Campus Canteen Website** | Interactive food ordering system with menu categories and cart functionality | [See It Live](https://web.eliteinterns.in/projects/canteen) | [Explore Code](./projects/canteen/) |
+| **Campus Club Website** | Engaging platform for student clubs to share activities and recruit members | [See It Live](https://web.eliteinterns.in/projects/club) | [Explore Code](./projects/club/) |
+| **College Department Website** | Comprehensive academic portal with course listings, faculty profiles, and resources | [See It Live](https://web.eliteinterns.in/projects/college) | [Explore Code](./projects/college/) |
+| **Tech Conference Site** | Event management site with schedules, speaker bios, and registration | [See It Live](https://web.eliteinterns.in/projects/conference) | [Explore Code](./projects/conference/) |
+| **Student Council Website** | Community portal with event calendar, voting systems, and announcements | [See It Live](https://web.eliteinterns.in/projects/council) | [Explore Code](./projects/council/) |
+| **Freelancer Portfolio** | Showcase your skills with this customizable portfolio template | [See It Live](https://web.eliteinterns.in/projects/freelancer) | [Explore Code](./projects/freelancer/) |
+| **Hackathon/TechFest Site** | Dynamic platform for tech events with countdown timers and live updates | [See It Live](https://web.eliteinterns.in/projects/hackathon) | [Explore Code](./projects/hackathon/) |
+| **Art/Photography Portfolio** | Visual-focused gallery with filtering and lightbox integration | [See It Live](https://web.eliteinterns.in/projects/photography) | [Explore Code](./projects/photography/) |
+| **Startup Landing Page** | Eye-catching single-page design with modern animations and clear CTAs | [See It Live](https://web.eliteinterns.in/projects/startup) | [Explore Code](./projects/startup/) |
 
-> ✅ All projects follow clean, modular code using HTML, CSS, JS, and optionally JSON for dynamic content.
+> ✨ All projects feature responsive design, clean code architecture, and best practices for modern web development.
 
-## 📬 Connect With Us
+## 📱 Connect With Us
 
-| Platform       | Link                                                                               |
-| -------------- | ---------------------------------------------------------------------------------- |
-| 🌐 Website     | [eliteinterns.in](https://eliteinterns.in)                                         |
-| 📧 Email       | [support@eliteinterns.in](mailto:support@eliteinterns.in)                          |
-| 💼 LinkedIn    | [linkedin.com/company/eliteinterns](https://www.linkedin.com/company/eliteinterns) |
-| 📘 Facebook    | [facebook.com/eliteinterns](https://www.facebook.com/eliteinterns)                 |
-| 🐦 Instagram   | [instagram.com/eliteinterns](https://www.instagram.com/eliteinterns)               |
-| 🧵 Threads     | [threads.net/@eliteinterns](https://www.threads.net/@eliteinterns)                 |
-| 💬 WhatsApp    | [+919008192632](https://wa.me/+919008192632)                                       |
-| 🐙 GitHub      | [github.com/eliteinterns](https://github.com/eliteinterns)                         |
-| 🐦 X (Twitter) | [x.com/eliteinterns\_](https://x.com/eliteinterns_)                                |
+<div align="center">
 
-## 📜 License & Contributions
+[![Website](https://img.shields.io/badge/Website-eliteinterns.in-blue?style=for-the-badge&logo=globe)](https://eliteinterns.in)
+[![Email](https://img.shields.io/badge/Email-support@eliteinterns.in-red?style=for-the-badge&logo=gmail)](mailto:support@eliteinterns.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-eliteinterns-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/company/eliteinterns)
+[![GitHub](https://img.shields.io/badge/GitHub-eliteinterns-black?style=for-the-badge&logo=github)](https://github.com/eliteinterns)
 
-* **License:** MIT – see [LICENSE](LICENSE.md)
-* **Contributing:** Contributions welcome! Read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+[![Instagram](https://img.shields.io/badge/Instagram-@eliteinterns-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/eliteinterns)
+[![Threads](https://img.shields.io/badge/Threads-@eliteinterns-black?style=for-the-badge&logo=threads)](https://www.threads.net/@eliteinterns)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+919008192632-green?style=for-the-badge&logo=whatsapp)](https://wa.me/+919008192632)
+[![X](https://img.shields.io/badge/X-@eliteinterns__-black?style=for-the-badge&logo=x)](https://x.com/eliteinterns_)
+[![Facebook](https://img.shields.io/badge/Facebook-eliteinterns-blue?style=for-the-badge&logo=facebook)](https://www.facebook.com/eliteinterns)
 
-Thanks for checking out **EliteInterns**!
-Feel free to fork, learn, contribute, and inspire.
-🚀 *Happy Coding!*
+</div>
+
+---
+
+<br />
+
+<div align="center">
+
+  Thanks for checking out **EliteInterns**!
+  Feel free to fork, learn, contribute, and inspire.
+  🚀 *Happy Coding!*
+  
+</div>
