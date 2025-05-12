@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development | EliteInterns</title>
+    <link rel="icon" href="https://web.eliteinterns.in/assets/images/favicon.svg" type="image/x-icon" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Web Development | EliteInterns" />
+    <meta name="description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta name="keywords" content="EliteInterns, internship portal code, HTML example, CSS for internship website, JavaScript examples, JSON data, student internship website, web development internship, coding for interns, frontend example code">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://web.eliteinterns.in/" />
+    <meta property="og:title" content="Web Development | EliteInterns" />
+    <meta property="og:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="og:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="og:image:alt" content="Web Development" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://web.eliteinterns.in/" />
+    <meta property="twitter:title" content="Web Development | EliteInterns" />
+    <meta property="twitter:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="twitter:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="twitter:image:alt" content="Web Development" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Web Development | EliteInterns",
+        "description": "Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website.",
+        "url": "https://web.eliteinterns.in/",
+        "image": "https://web.eliteinterns.in/assets/images/internship.png"
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- JavaScript -->
+    <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <img src="assets/images/favicon.svg" alt="Logo" class="logo-icon">
+                Elite<span>Interns</span>
+            </a>
+            
+            <nav>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#structure">Structure</a></li>
+                    <li><a href="#notes">Notes</a></li>
+                    <li><a href="#getting-started">Getting Started</a></li>
+                    <li><a href="#libraries">Libraries</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Master Web Development</h1>
+            <p>Your comprehensive resource for hands-on learning, practical projects, and library demonstrations designed to accelerate your journey from intern to professional developer.</p>
+            <div class="hero-buttons">
+                <a href="#getting-started" class="btn btn-primary">Get Started</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="overview">
+        <div class="container">
+            <div class="section-title">
+                <h2>Overview</h2>
+            </div>
+            <div class="overview-content">
+                <div class="overview-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <p>Welcome to <strong>EliteInterns</strong> – your comprehensive resource for web development mastery! This repository combines structured learning materials, interactive library demonstrations, and real-world projects designed to accelerate your journey from intern to professional developer.</p>
+                <br>
+                <p><strong>⚠️ Note:</strong> This repository is designed for <em>learning and reference purposes</em> only. The code examples are optimized for clarity rather than production readiness.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repository Structure Section -->
+    <section id="structure" class="structure">
+        <div class="container">
+            <div class="section-title">
+                <h2>Repository Structure</h2>
+            </div>
+            <div class="structure-grid">
+                <div class="structure-card">
+                    <div class="structure-card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Core Web Technologies</h3>
+                    <p>Foundational knowledge and examples of HTML, CSS, JavaScript, and JSON with practical code snippets and visual examples.</p>
+                </div>
+                <div class="structure-card">
+                    <div class="structure-card-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>JavaScript Libraries</h3>
+                    <p>Interactive demos of popular libraries to enhance your web applications with animations, charts, maps, and more.</p>
+                </div>
+                <div class="structure-card">
+                    <div class="structure-card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Mini-Projects</h3>
+                    <p>Complete, real-world applications with responsive design, clean code architecture, and modern web development best practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Web Notes -->
+    <section id="notes" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Core Web Notes</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: #E44D26;">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Semantic structure, forms, tables, and modern layout techniques</p>
+                    <a href="https://web.eliteinterns.in/html" target="_blank" class="btn" style="display: inline-block; margin-top: 15px; padding: 8px 15px; background-color: #E44D26; color: white; border-radius: 5px;">View Demo</a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: #264DE4;">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Selectors, Flexbox, Grid, animations, and responsive design principles</p>
+                    <a href="https://web.eliteinterns.in/css" target="_blank" class="btn" style="display: inline-block; margin-top: 15px; padding: 8px 15px; background-color: #264DE4; color: white; border-radius: 5px;">View Demo</a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: #F7DF1E;">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, events, functions, and dynamic content creation</p>
+                    <a href="https://web.eliteinterns.in/javascript" target="_blank" class="btn" style="display: inline-block; margin-top: 15px; padding: 8px 15px; background-color: #F7DF1E; color: black; border-radius: 5px;">View Demo</a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: #000000;">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>JSON</h3>
+                    <p>Data structures, storage patterns, and integration with web applications</p>
+                    <a href="https://web.eliteinterns.in/json" target="_blank" class="btn" style="display: inline-block; margin-top: 15px; padding: 8px 15px; background-color: #000000; color: white; border-radius: 5px;">View Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Getting Started Section -->
+    <section id="getting-started" class="getting-started">
+        <div class="container">
+            <div class="section-title">
+                <h2>Getting Started</h2>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Quick Setup</h3>
+                        <p>Clone the repository and navigate to the directory:</p>
+                        <div class="code-container">
+                            <div class="code-block" id="code1"># Clone the repository
+git clone https://github.com/eliteinterns/web-development.git
+
+# Navigate to the directory
+cd web-development</div>
+                            <button class="copy-btn" data-target="code1">
+                                <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                    <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path>
+                                </svg>
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Focus on a Specific Project or Library</h3>
+                        <p>Want to isolate a specific project or library? We've made it simple:</p>
+                        <div class="code-container">
+                            <div class="code-block" id="code2">.\run-setup.bat</div>
+                            <button class="copy-btn" data-target="code2">
+                                <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                    <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path>
+                                </svg>
+                                Copy
+                            </button>
+                        </div>
+                        <p>When prompted, enter the folder name from <code>Libraries/</code> or <code>Projects/</code> (e.g., <code>chart</code>, <code>business</code>, <code>validator</code>, etc.).</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Run in the Browser</h3>
+                        <p>No build tools required – just open any <code>index.html</code> file directly in your browser.</p>
+                        <ul>
+                            <li><strong>Projects:</strong> <code>Projects/Project-Name/index.html</code></li>
+                            <li><strong>Library demos:</strong> <code>Libraries/Library-Name/index.html</code></li>
+                            <li><strong>Learning materials:</strong> Explore markdown or HTML files in respective folders</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Using a Local Server (Optional)</h3>
+                        <p>For demos using <code>fetch()</code> or other features requiring a server:</p>
+                        <div class="code-container">
+                            <div class="code-block" id="code3"># Using Python
+python3 -m http.server
+
+# Or simply use VS Code's Live Server extension</div>
+                            <button class="copy-btn" data-target="code3">
+                                <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                    <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path>
+                                </svg>
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Libraries Section -->
+    <section id="libraries" class="libraries">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured JavaScript Libraries</h2>
+            </div>
+            <div class="libraries-grid">
+                <div class="library-card">
+                    <div class="library-card-header">Animate.css</div>
+                    <div class="library-card-body">
+                        <p>Add delightful animations with minimal effort</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/Animate" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/Animate/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">Chart.js</div>
+                    <div class="library-card-body">
+                        <p>Create stunning data visualizations and interactive charts</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/Chart" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/Chart/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">Fuse.js</div>
+                    <div class="library-card-body">
+                        <p>Implement lightning-fast fuzzy search functionality</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/Fuse" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/Fuse/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">GLightbox</div>
+                    <div class="library-card-body">
+                        <p>Display media content in beautiful, responsive lightboxes</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/GLightbox" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/GLightbox/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">InfiniteScroll</div>
+                    <div class="library-card-body">
+                        <p>Load content seamlessly as users scroll down the page</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/InfiniteScroll" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/InfiniteScroll/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">JustValidate</div>
+                    <div class="library-card-body">
+                        <p>Create intuitive form validation with minimal setup</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/JustValidate" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/JustValidate/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">Leaflet</div>
+                    <div class="library-card-body">
+                        <p>Integrate interactive maps with custom markers and overlays</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/Leaflet" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/Leaflet/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">Lozad.js</div>
+                    <div class="library-card-body">
+                        <p>Boost performance with intelligent lazy loading</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/Lozad" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/Lozad/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">Masonry</div>
+                    <div class="library-card-body">
+                        <p>Create dynamic, responsive grid layouts that adapt to content</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/Masonry" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/Masonry/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">Plyr</div>
+                    <div class="library-card-body">
+                        <p>Customize media players with an elegant, accessible interface</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/Plyr" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/Plyr/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">ScrollReveal</div>
+                    <div class="library-card-body">
+                        <p>Craft engaging scroll-based animations and reveals</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/ScrollReveal" target="_blank">Live Demo</a>
+                            <a href="./libraries/ScrollReveal/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-card">
+                    <div class="library-card-header">SweetAlert2</div>
+                    <div class="library-card-body">
+                        <p>Replace boring alerts with beautiful, customizable dialogs</p>
+                        <div class="library-links">
+                            <a href="https://web.eliteinterns.in/libraries/SweetAlert2" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/libraries/SweetAlert2/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Internship Mini-Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Local Business Website</h3>
+                        <p>Conversion-focused site for small businesses with services, testimonials, and contact forms</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/business" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/business/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Campus Canteen Website</h3>
+                        <p>Interactive food ordering system with menu categories and cart functionality</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/canteen" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/canteen/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Campus Club Website</h3>
+                        <p>Engaging platform for student clubs to share activities and recruit members</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/club" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/club/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>College Department Website</h3>
+                        <p>Comprehensive academic portal with course listings, faculty profiles, and resources</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/college" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/college/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tech Conference Site</h3>
+                        <p>Event management site with schedules, speaker bios, and registration</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/conference" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/conference/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Student Council Website</h3>
+                        <p>Community portal with event calendar, voting systems, and announcements</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/council" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/council/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Freelancer Portfolio</h3>
+                        <p>Showcase your skills with this customizable portfolio template</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/freelancer" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/freelancer/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hackathon/TechFest Site</h3>
+                        <p>Dynamic platform for tech events with countdown timers and live updates</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/hackathon" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/hackathon/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Art/Photography Portfolio</h3>
+                        <p>Visual-focused gallery with filtering and lightbox integration</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/photography" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/photography/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Startup Landing Page</h3>
+                        <p>Eye-catching single-page design with modern animations and clear CTAs</p>
+                        <div class="project-links">
+                            <a href="https://web.eliteinterns.in/projects/startup" target="_blank">Live Demo</a>
+                            <a href="https://github.com/eliteinterns/web-development/tree/main/projects/startup/" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="connect">
+        <div class="container">
+            <div class="section-title">
+                <h2>Connect With Us</h2>
+            </div>
+            <p>Join our community of developers and interns!</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/eliteinterns" target="_blank" class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/eliteinterns" target="_blank" class="social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/eliteinterns" target="_blank" class="social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://x.com/eliteinterns_" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/eliteinterns" target="_blank" class="social-link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.threads.net/@eliteinterns" target="_blank" class="social-link">
+                    <i class="fa-brands fa-threads"></i>
+                </a>
+                <a href="mailto:support@eliteinterns.in" class="social-link">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/+919008192632" target="_blank" class="social-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Thanks for checking out <strong>EliteInterns</strong>!</p>
+            <p>Feel free to fork, learn, contribute, and inspire. <strong>Happy Coding!</strong></p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+</html>
