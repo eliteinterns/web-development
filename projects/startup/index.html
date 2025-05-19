@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Innovate | EliteInterns</title>
+  <link rel="icon" href="https://web.eliteinterns.in/assets/images/favicon.svg" type="image/x-icon" />
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Innovate | EliteInterns" />
+  <meta name="description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+  <meta name="keywords" content="EliteInterns, internship portal code, HTML example, CSS for internship website, JavaScript examples, JSON data, student internship website, web development internship, coding for interns, frontend example code">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://web.eliteinterns.in/projects/startup/" />
+  <meta property="og:title" content="Innovate | EliteInterns" />
+  <meta property="og:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+  <meta property="og:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+  <meta property="og:image:alt" content="Innovate | EliteInterns" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://web.eliteinterns.in/projects/startup/" />
+  <meta property="twitter:title" content="Innovate | EliteInterns" />
+  <meta property="twitter:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+  <meta property="twitter:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+  <meta property="twitter:image:alt" content="Innovate | EliteInterns" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Innovate | EliteInterns",
+      "description": "Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website.",
+      "url": "https://web.eliteinterns.in/projects/startup/",
+      "image": "https://web.eliteinterns.in/assets/images/internship.png"
+    }
+  </script>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--==================== HEADER ====================-->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Innovate</div>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" class="btn">Get Started</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!--==================== HERO ====================-->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Innovate Your Business with Our Platform</h1>
+          <p>Transform your ideas into reality with our cutting-edge platform. Streamline your workflow, enhance productivity, and scale your business effortlessly.</p>
+          <a href="#contact" class="btn">Start Free Trial</a>
+        </div>
+
+        <div class="hero-image">
+          <img src="https://placehold.co/600x400" alt="Platform Dashboard">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==================== FEATURES ====================-->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-title">
+        <h2>Why Choose Our Platform</h2>
+        <p>We provide powerful tools to help your startup grow and succeed</p>
+      </div>
+
+      <div class="feature-cards">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Lightning Fast</h3>
+          <p>Our platform is optimized for speed, ensuring your team can work efficiently without any delays.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Secure & Reliable</h3>
+          <p>Top-notch security measures to keep your data safe and ensure 99.9% uptime.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Detailed Analytics</h3>
+          <p>Get insights with comprehensive analytics to make data-driven decisions.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔄</div>
+          <h3>Seamless Integration</h3>
+          <p>Easily integrate with your existing tools and workflows for maximum productivity.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>24/7 Support</h3>
+          <p>Our dedicated team is always available to help you resolve any issues quickly.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Mobile Friendly</h3>
+          <p>Access your workspace from anywhere, on any device with our responsive design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==================== TESTIMONIALS ====================-->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our Clients Say</h2>
+        <p>Hear from startups that have transformed their business with our platform</p>
+      </div>
+
+      <div class="testimonial-container">
+        <div class="testimonial-list"></div>
+        <div class="testimonial-controls">
+          <button id="prev-btn">❮</button>
+          <button id="next-btn">❯</button>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!--==================== CTA ====================-->
+  <section class="cta" id="contact">
+    <div class="container">
+      <h2>Ready to Transform Your Business?</h2>
+      <p>Get started with our 14-day free trial. No credit card required.</p>
+
+      <div class="contact-form">
+        <form id="signup-form" autocomplete="on">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" required autocomplete="organization">
+          </div>
+
+          <button type="submit" class="btn btn-outline">Start Free Trial</button>
+        </form>        
+      </div>
+    </div>
+  </section>
+
+  <!--==================== FOOTER ====================-->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h4>Innovate</h4>
+          <p>We help startups innovate and grow with our powerful platform and dedicated support.</p>
+          <div class="social-links">
+            <a href="#"><span>f</span></a>
+            <a href="#"><span>t</span></a>
+            <a href="#"><span>in</span></a>
+            <a href="#"><span>ig</span></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2025 Innovate. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

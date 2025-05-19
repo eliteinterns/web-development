@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Location A",
+        "lat": 12.9716,
+        "lng": 77.5946,
+        "info": "This is Location A in Bangalore."
+    },
+    {
+        "name": "Location B",
+        "lat": 28.6139,
+        "lng": 77.2090,
+        "info": "This is Location B in Delhi."
+    }
+]

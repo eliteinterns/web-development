@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechSummit 2025 | EliteInterns</title>
+    <link rel="icon" href="https://web.eliteinterns.in/assets/images/favicon.svg" type="image/x-icon" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="TechSummit 2025 | EliteInterns" />
+    <meta name="description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta name="keywords" content="EliteInterns, internship portal code, HTML example, CSS for internship website, JavaScript examples, JSON data, student internship website, web development internship, coding for interns, frontend example code">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://web.eliteinterns.in/projects/conference/" />
+    <meta property="og:title" content="TechSummit 2025 | EliteInterns" />
+    <meta property="og:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="og:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="og:image:alt" content="TechSummit 2025 | EliteInterns" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://web.eliteinterns.in/projects/conference/" />
+    <meta property="twitter:title" content="TechSummit 2025 | EliteInterns" />
+    <meta property="twitter:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="twitter:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="twitter:image:alt" content="TechSummit 2025 | EliteInterns" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "TechSummit 2025 | EliteInterns",
+        "description": "Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website.",
+        "url": "https://web.eliteinterns.in/projects/conference/",
+        "image": "https://web.eliteinterns.in/assets/images/internship.png"
+        }
+    </script>
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">TECH<span>SUMMIT</span> 2025</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#registration">Registration</a></li>
+                    <li><a href="#venue">Venue</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-btn">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!--==================== HERO ====================-->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>TECHSUMMIT 2025</h1>
+            <p>Join the most innovative minds in technology for three days of inspiration, learning, and networking.</p>
+
+            <div class="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+
+            <a href="#registration" class="btn">Register Now</a>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About The Conference</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>The Future of Technology: Innovation & Beyond</h3>
+                    <p>TechSummit 2025 brings together the brightest minds in technology to explore cutting-edge
+                        innovations and emerging trends that are shaping our future. From artificial intelligence and
+                        quantum computing to blockchain and biotechnology, our conference covers the most exciting
+                        developments in the tech industry.</p>
+                    <p>Join us for three days of inspiring keynotes, in-depth workshops, and unparalleled networking
+                        opportunities with industry leaders, innovators, and tech enthusiasts from around the world.</p>
+                    <p>Whether you're a seasoned professional, a startup founder, or a tech enthusiast, TechSummit 2025
+                        offers valuable insights and connections to help you stay ahead in the rapidly evolving
+                        technological landscape.</p>
+                </div>
+                <div class="about-img">
+                    <img src="https://placehold.co/500x300" alt="Tech Conference">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SPEAKERS ====================-->
+    <section class="speakers" id="speakers">
+        <div class="container">
+            <h2 class="section-title">Featured Speakers</h2>
+            <div class="speakers-grid"></div>
+        </div>
+    </section>
+
+    <!--==================== SCHEDULE ====================-->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <h2 class="section-title">Event Schedule</h2>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-day="day1">Day 1</button>
+                <button class="tab-btn" data-day="day2">Day 2</button>
+                <button class="tab-btn" data-day="day3">Day 3</button>
+            </div>
+
+            <div class="tab-content active" id="day1">
+                <div class="schedule-item">
+                    <div class="schedule-time">09:00 AM</div>
+                    <div class="schedule-details">
+                        <h3>Registration & Welcome Coffee</h3>
+                        <p>Start your day with registration and networking over coffee.</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">10:00 AM</div>
+                    <div class="schedule-details">
+                        <h3>Opening Keynote: The Future of AI</h3>
+                        <p>An inspiring talk on how AI is transforming industries and our daily lives.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>Alex Johnson, Chief AI Officer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">12:00 PM</div>
+                    <div class="schedule-details">
+                        <h3>Lunch Break & Networking</h3>
+                        <p>Enjoy lunch while connecting with fellow attendees.</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">01:30 PM</div>
+                    <div class="schedule-details">
+                        <h3>Workshop: Building with Next-Gen APIs</h3>
+                        <p>Learn how to leverage the latest APIs for your applications.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>David Wong, Developer Advocate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">03:30 PM</div>
+                    <div class="schedule-details">
+                        <h3>Panel: Cybersecurity Challenges in 2025</h3>
+                        <p>Experts discuss the evolving landscape of cybersecurity.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>Priya Patel & Panel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">05:00 PM</div>
+                    <div class="schedule-details">
+                        <h3>Networking Reception</h3>
+                        <p>Wind down with drinks and conversations with industry peers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="day2">
+                <div class="schedule-item">
+                    <div class="schedule-time">09:30 AM</div>
+                    <div class="schedule-details">
+                        <h3>Keynote: Quantum Computing Revolution</h3>
+                        <p>Exploring the potential of quantum computing to solve complex problems.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>Sarah Miller, Quantum Researcher</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">11:00 AM</div>
+                    <div class="schedule-details">
+                        <h3>Technical Workshop: Machine Learning Deployment</h3>
+                        <p>Hands-on session on deploying ML models in production environments.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>Marcus Lee, ML Engineer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">12:30 PM</div>
+                    <div class="schedule-details">
+                        <h3>Lunch & Demo Showcase</h3>
+                        <p>Enjoy lunch while exploring innovative tech demos.</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">02:00 PM</div>
+                    <div class="schedule-details">
+                        <h3>Blockchain Beyond Finance</h3>
+                        <p>Exploring blockchain applications in healthcare, supply chain, and governance.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>David Wong, Blockchain Expert</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">04:00 PM</div>
+                    <div class="schedule-details">
+                        <h3>Startup Pitch Competition</h3>
+                        <p>Watch innovative startups pitch their ideas to industry leaders and investors.</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">06:30 PM</div>
+                    <div class="schedule-details">
+                        <h3>Conference Dinner & Awards</h3>
+                        <p>Formal dinner with awards ceremony for outstanding contributions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="day3">
+                <div class="schedule-item">
+                    <div class="schedule-time">09:30 AM</div>
+                    <div class="schedule-details">
+                        <h3>Future Tech Roundtables</h3>
+                        <p>Join small group discussions on emerging technologies with industry experts.</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">11:00 AM</div>
+                    <div class="schedule-details">
+                        <h3>Advanced Cybersecurity Workshop</h3>
+                        <p>Practical strategies for protecting against next-generation threats.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>Priya Patel, Security Expert</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">12:30 PM</div>
+                    <div class="schedule-details">
+                        <h3>Networking Lunch</h3>
+                        <p>Final networking opportunity over lunch.</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">02:00 PM</div>
+                    <div class="schedule-details">
+                        <h3>Tech Ethics Panel: Responsible Innovation</h3>
+                        <p>Discussing the ethical implications of emerging technologies.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>Ethics Panel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">03:30 PM</div>
+                    <div class="schedule-details">
+                        <h3>Closing Keynote: The Road Ahead</h3>
+                        <p>Visionary talk on the future landscape of technology.</p>
+                        <div class="schedule-speaker">
+                            <img src="https://placehold.co/100x100" alt="Speaker">
+                            <span>Dr. Elena Rodriguez, Futurist</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="schedule-time">05:00 PM</div>
+                    <div class="schedule-details">
+                        <h3>Farewell Drinks & Networking</h3>
+                        <p>Final chance to connect and exchange contacts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== REGISTRATION ====================-->
+    <section class="registration" id="registration">
+        <div class="container">
+            <h2 class="section-title">Register Now</h2>
+            <p>Secure your spot at TechSummit 2025 and gain access to cutting-edge insights, hands-on workshops, and
+                invaluable networking opportunities with industry leaders.</p>
+
+            <div class="ticket-options">
+                <div class="ticket-card">
+                    <h3>Standard Pass</h3>
+                    <div class="ticket-price">$499 <span>/person</span></div>
+                    <ul class="ticket-features">
+                        <li>Access to all keynotes</li>
+                        <li>Workshop participation</li>
+                        <li>Lunch and refreshments</li>
+                        <li>Networking events</li>
+                        <li>Conference materials</li>
+                    </ul>
+                    <a href="#" class="btn" id="register-standard">Select</a>
+                </div>
+
+                <div class="ticket-card">
+                    <h3>Premium Pass</h3>
+                    <div class="ticket-price">$799 <span>/person</span></div>
+                    <ul class="ticket-features">
+                        <li>All Standard Pass features</li>
+                        <li>VIP seating</li>
+                        <li>Exclusive Q&A sessions</li>
+                        <li>Conference dinner</li>
+                        <li>1-year online community access</li>
+                    </ul>
+                    <a href="#" class="btn" id="register-premium">Select</a>
+                </div>
+
+                <div class="ticket-card">
+                    <h3>Virtual Pass</h3>
+                    <div class="ticket-price">$249 <span>/person</span></div>
+                    <ul class="ticket-features">
+                        <li>Livestream of all keynotes</li>
+                        <li>Online workshop access</li>
+                        <li>Digital conference materials</li>
+                        <li>Virtual networking</li>
+                        <li>30-day access to recordings</li>
+                    </ul>
+                    <a href="#" class="btn" id="register-virtual">Select</a>
+                </div>
+            </div>
+
+            <p>Group discounts available for 5+ attendees. <a href="#contact"
+                    style="color: white; text-decoration: underline;">Contact us</a> for details.</p>
+        </div>
+    </section>
+
+    <!--==================== VENUE ====================-->
+    <section class="venue" id="venue">
+        <div class="container">
+            <h2 class="section-title">Venue Information</h2>
+            <div class="venue-content">
+                <div class="venue-info">
+                    <h3>TechHub Convention Center</h3>
+                    <ul class="venue-details">
+                        <li>
+                            <i>📍</i>
+                            <div>
+                                <p>123 Innovation Avenue</p>
+                                <p>San Francisco, CA 94105</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i>🕒</i>
+                            <div>
+                                <p>May 15-17, 2025</p>
+                                <p>9:00 AM - 6:00 PM Daily</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i>🚇</i>
+                            <div>
+                                <p><strong>Public Transit:</strong> 10-minute walk from Downtown Metro Station</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i>🚗</i>
+                            <div>
+                                <p><strong>Parking:</strong> Available at the venue ($25/day)</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i>🏨</i>
+                            <div>
+                                <p><strong>Accommodation:</strong> Special rates available at partner hotels</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn">View Directions</a>
+                </div>
+                <div class="venue-map">
+                    <!-- Map placeholder -->
+                    <img src="https://placehold.co/600x400" alt="Venue Map"
+                        style="width:100%; height:100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <ul class="contact-details">
+                        <li>
+                            <i>📧</i>
+                            <span>info@techsummit2025.com</span>
+                        </li>
+                        <li>
+                            <i>📱</i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li>
+                            <i>📍</i>
+                            <span>123 Innovation Avenue, San Francisco, CA 94105</span>
+                        </li>
+                    </ul>
+                    <h3>Follow Us</h3>
+                    <div class="footer-socials">
+                        <a href="#"><i>📱</i></a>
+                        <a href="#"><i>🔗</i></a>
+                        <a href="#"><i>✉️</i></a>
+                        <a href="#"><i>📷</i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SPONSORS ====================-->
+    <section class="sponsors" id="sponsors">
+        <div class="container">
+            <h2 class="section-title">Our Sponsors</h2>
+            <p>TechSummit 2025 is made possible by the generous support of our sponsors.</p>
+
+            <div class="sponsors-grid">
+                <div class="sponsor-logo">
+                    <img src="https://placehold.co/180x80" alt="Sponsor 1">
+                </div>
+                <div class="sponsor-logo">
+                    <img src="https://placehold.co/180x80" alt="Sponsor 2">
+                </div>
+                <div class="sponsor-logo">
+                    <img src="https://placehold.co/180x80" alt="Sponsor 3">
+                </div>
+                <div class="sponsor-logo">
+                    <img src="https://placehold.co/180x80" alt="Sponsor 4">
+                </div>
+                <div class="sponsor-logo">
+                    <img src="https://placehold.co/180x80" alt="Sponsor 5">
+                </div>
+                <div class="sponsor-logo">
+                    <img src="https://placehold.co/180x80" alt="Sponsor 6">
+                </div>
+            </div>
+
+            <div style="margin-top: 3rem;">
+                <h3>Interested in becoming a sponsor?</h3>
+                <p>Showcase your brand to industry leaders and tech enthusiasts.</p>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== FOOTER ====================-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>TechSummit 2025</h3>
+                    <p>The premier tech conference exploring cutting-edge innovations and emerging trends that are
+                        shaping our future.</p>
+                    <div class="footer-socials">
+                        <a href="#"><i>📱</i></a>
+                        <a href="#"><i>🔗</i></a>
+                        <a href="#"><i>✉️</i></a>
+                        <a href="#"><i>📷</i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#registration">Registration</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with the latest news and announcements.</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 TechSummit. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== REGISTRATION MODAL ====================-->
+    <div class="modal" id="registrationModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Register for TechSummit 2025</h2>
+            <p id="selected-ticket-type"></p>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Company/Organization">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" required>
+                        <option value="" disabled selected>Job Title</option>
+                        <option value="executive">Executive/C-Level</option>
+                        <option value="manager">Manager/Director</option>
+                        <option value="developer">Developer/Engineer</option>
+                        <option value="designer">Designer/UX</option>
+                        <option value="marketing">Marketing/Sales</option>
+                        <option value="student">Student</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select class="form-control" required>
+                        <option value="" disabled selected>Industry</option>
+                        <option value="tech">Technology</option>
+                        <option value="finance">Finance</option>
+                        <option value="healthcare">Healthcare</option>
+                        <option value="education">Education</option>
+                        <option value="retail">Retail</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control"
+                        placeholder="Special Requirements (dietary, accessibility, etc.)"></textarea>
+                </div>
+                <button type="submit" class="btn">Complete Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

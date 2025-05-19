@@ -1,0 +1,82 @@
+/* Prevent padding from breaking layout */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 60px 20px;
+}
+
+.form-wrapper {
+    max-width: 420px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 15px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+input.just-validate-error-field {
+    border-color: #e74c3c;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 13px;
+    margin-top: 4px;
+    min-height: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b7dd8;
+}

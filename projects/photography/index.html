@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | EliteInterns</title>
+    <link rel="icon" href="https://web.eliteinterns.in/assets/images/favicon.svg" type="image/x-icon" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Portfolio | EliteInterns" />
+    <meta name="description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta name="keywords" content="EliteInterns, internship portal code, HTML example, CSS for internship website, JavaScript examples, JSON data, student internship website, web development internship, coding for interns, frontend example code">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://web.eliteinterns.in/projects/photography/" />
+    <meta property="og:title" content="Portfolio | EliteInterns" />
+    <meta property="og:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="og:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="og:image:alt" content="Portfolio | EliteInterns" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://web.eliteinterns.in/projects/photography/" />
+    <meta property="twitter:title" content="Portfolio | EliteInterns" />
+    <meta property="twitter:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="twitter:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="twitter:image:alt" content="Portfolio | EliteInterns" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Portfolio | EliteInterns",
+        "description": "Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website.",
+        "url": "https://web.eliteinterns.in/projects/photography/",
+        "image": "https://web.eliteinterns.in/assets/images/internship.png"
+        }
+    </script>
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+        <div class="logo">PORTFOLIO</div>
+        <nav>
+            <div class="mobile-menu">☰</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--==================== HERO ====================-->
+    <section id="home" class="hero">
+        <img src="https://placehold.co/1600x900" alt="Hero Image" class="hero-img">
+        <div class="hero-content">
+            <h1>Creative Portfolio</h1>
+            <p>Showcasing my journey through art and visual storytelling</p>
+            <a href="#gallery" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!--==================== GALLERY ====================-->
+    <section id="gallery" class="section">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery">
+            <!-- Gallery items will be dynamically loaded by JavaScript -->
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about">
+            <div class="about-img">
+                <img src="https://placehold.co/600x600" alt="Artist Photo">
+            </div>
+            <div class="about-content">
+                <h3>Hi, I'm Alex</h3>
+                <p>I'm a passionate photographer and visual artist based in New York City. For over 10 years, I've been capturing moments and creating images that tell compelling stories.</p>
+                <p>My work explores the intersection between urban landscapes and human emotion. Through my lens, I aim to reveal the extraordinary in everyday scenes and challenge viewers to see the familiar in new ways.</p>
+                <p>I've exhibited my work in galleries across the country and collaborated with brands that share my vision for authentic storytelling. When I'm not behind the camera, I'm teaching photography workshops and mentoring emerging artists.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h3>Location</h3>
+                        <p>New York City, NY</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>hello@portfolio.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📱</div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== FOOTER ====================-->
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link">FB</a>
+            <a href="#" class="social-link">IG</a>
+            <a href="#" class="social-link">TW</a>
+            <a href="#" class="social-link">LI</a>
+        </div>
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!--==================== MODAL ====================-->
+    <div class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <img class="modal-img" src="" alt="">
+            <div class="modal-caption"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,370 @@
+/* =============== BASE =============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+    color: #2d6cdf;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #2d6cdf;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1c4fad;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* =============== HEADER =============== */
+header {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2d6cdf;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #2d6cdf;
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* =============== HERO =============== */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin-top: 60px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* =============== SERVICES =============== */
+.services {
+    background-color: white;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section-title p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-card i {
+    font-size: 40px;
+    color: #2d6cdf;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+}
+
+/* =============== PORTFOLIO =============== */
+.portfolio {
+    background-color: #f8f9fa;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.portfolio-item {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+    background-color: #ddd;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 108, 223, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-overlay h3 {
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* =============== TESTIMONIALS =============== */
+.testimonials {
+    background-color: white;
+}
+
+.testimonial-slider {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.testimonial {
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-weight: 600;
+}
+
+.testimonial-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.testimonial-controls button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #2d6cdf;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/* =============== CONTACT =============== */
+.contact {
+    background-color: #f8f9fa;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+/* =============== FOOTER =============== */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #2d6cdf;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        background: white;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        transform: translateY(-150%);
+        transition: transform 0.3s ease;
+    }
+
+    .nav-links.active {
+        transform: translateY(0);
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+}

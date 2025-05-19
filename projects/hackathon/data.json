@@ -1,0 +1,33 @@
+[
+    {
+      "date": "May 15, 2025 - 9:00 AM",
+      "title": "Registration & Opening Ceremony",
+      "description": "Welcome address, introduction to judges and mentors, announcement of challenges."
+    },
+    {
+      "date": "May 15, 2025 - 11:00 AM",
+      "title": "Hackathon Kickoff",
+      "description": "Teams begin working on their projects. Mentors available for guidance."
+    },
+    {
+      "date": "May 16, 2025 - 10:00 AM",
+      "title": "Workshops & Tech Talks",
+      "description": "Industry experts share insights and knowledge on cutting-edge technologies."
+    },
+    {
+      "date": "May 17, 2025 - 9:00 AM",
+      "title": "Final Submissions",
+      "description": "Teams finalize and submit their projects for evaluation."
+    },
+    {
+      "date": "May 17, 2025 - 2:00 PM",
+      "title": "Project Presentations",
+      "description": "Teams present their solutions to judges and audience."
+    },
+    {
+      "date": "May 17, 2025 - 5:00 PM",
+      "title": "Awards Ceremony",
+      "description": "Announcement of winners and distribution of prizes."
+    }
+  ]
+  

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Department of Computer Science | EliteInterns</title>
+    <link rel="icon" href="https://web.eliteinterns.in/assets/images/favicon.svg" type="image/x-icon" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Department of Computer Science | EliteInterns" />
+    <meta name="description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta name="keywords" content="EliteInterns, internship portal code, HTML example, CSS for internship website, JavaScript examples, JSON data, student internship website, web development internship, coding for interns, frontend example code">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://web.eliteinterns.in/projects/college/" />
+    <meta property="og:title" content="Department of Computer Science | EliteInterns" />
+    <meta property="og:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="og:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="og:image:alt" content="Department of Computer Science | EliteInterns" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://web.eliteinterns.in/projects/college/" />
+    <meta property="twitter:title" content="Department of Computer Science | EliteInterns" />
+    <meta property="twitter:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="twitter:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="twitter:image:alt" content="Department of Computer Science | EliteInterns" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Department of Computer Science | EliteInterns",
+        "description": "Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website.",
+        "url": "https://web.eliteinterns.in/projects/college/",
+        "image": "https://web.eliteinterns.in/assets/images/internship.png"
+        }
+    </script>
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Department of Computer Science</h1>
+            </div>
+
+            <button id="menu-toggle">☰</button>
+            <nav>
+
+                <ul id="nav-menu">
+                    <li><a href="#" class="nav-link active" data-section="home">Home</a></li>
+                    <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                    <li><a href="#programs" class="nav-link" data-section="programs">Programs</a></li>
+                    <li><a href="#faculty" class="nav-link" data-section="faculty">Faculty</a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--==================== HERO ====================-->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>Shaping the Future of Technology</h2>
+            <p>Join our innovative Computer Science department and be part of the digital revolution. We offer cutting-edge programs, world-class faculty, and extensive research opportunities.</p>
+            <a href="#programs" class="cta-button">Explore Programs</a>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section id="about">
+        <div class="container">
+            <h2>About Our Department</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://placehold.co/600x400" alt="Computer Science Department">
+                </div>
+                <div class="about-text">
+                    <p>Founded in 1985, the Department of Computer Science has been at the forefront of computing education and research for over three decades. Our department is recognized nationally for our academic excellence and innovative research initiatives.</p>
+                    <p>We pride ourselves on providing a supportive and challenging environment where students can develop the technical skills and creative thinking needed for success in the rapidly evolving field of computer science.</p>
+                    <p>Our state-of-the-art facilities include specialized labs for cybersecurity, artificial intelligence, and software development, providing students with hands-on experience using the latest technologies and tools.</p>
+                    
+                    <div class="tabs">
+                        <button class="tab-button active" data-tab="mission">Mission</button>
+                        <button class="tab-button" data-tab="vision">Vision</button>
+                        <button class="tab-button" data-tab="values">Values</button>
+                    </div>
+                    
+                    <div id="mission" class="tab-content active">
+                        <p>Our mission is to advance the field of computer science through excellence in education, research, and innovation, preparing students to be leaders in the digital age.</p>
+                    </div>
+                    
+                    <div id="vision" class="tab-content">
+                        <p>We aim to be globally recognized as a hub for pioneering research and transformative education in computer science, driving technological advancements that benefit society.</p>
+                    </div>
+                    
+                    <div id="values" class="tab-content">
+                        <p>Our department is guided by core values including innovation, integrity, collaboration, diversity, and excellence in all our academic and research endeavors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== PROGRAMS ====================-->
+    <section id="programs" style="background-color: #f5f5f5;">
+        <div class="container">
+            <h2>Our Programs</h2>
+            <div class="programs-grid"></div>
+        </div>
+    </section>
+
+    <!--==================== FACULTY ====================-->
+    <section id="faculty">
+        <div class="container">
+            <h2>Our Faculty</h2>
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://placehold.co/150x150" alt="Dr. Amanda Chen">
+                    </div>
+                    <h3>Dr. Amanda Chen</h3>
+                    <p class="title">Department Chair, Professor</p>
+                    <p>Specializes in Artificial Intelligence and Machine Learning</p>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://placehold.co/150x150" alt="Dr. James Wilson">
+                    </div>
+                    <h3>Dr. James Wilson</h3>
+                    <p class="title">Associate Professor</p>
+                    <p>Specializes in Cybersecurity and Network Systems</p>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://placehold.co/150x150" alt="Dr. Sarah Johnson">
+                    </div>
+                    <h3>Dr. Sarah Johnson</h3>
+                    <p class="title">Assistant Professor</p>
+                    <p>Specializes in Data Science and Analytics</p>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://placehold.co/150x150" alt="Dr. Michael Patel">
+                    </div>
+                    <h3>Dr. Michael Patel</h3>
+                    <p class="title">Professor</p>
+                    <p>Specializes in Software Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section id="contact" style="background-color: #f5f5f5;">
+        <div class="container">
+            <h2>Contact Us</h2>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+
+                    <form id="contact-form" autocomplete="on">
+                        <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" id="name" name="name" required autocomplete="name">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" required autocomplete="email">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="subject">Subject</label>
+                          <input type="text" id="subject" name="subject" required autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea id="message" name="message" required autocomplete="off"></textarea>
+                        </div>
+
+                        <button type="submit">Send Message</button>
+                    </form>                      
+                </div>
+
+                <div class="contact-info">
+                    <h3>Department Information</h3>
+                    <p><i>📍</i> Science Building, Room 301<br>123 University Avenue<br>Collegetown, ST 12345</p>
+                    <p><i>📞</i> (555) 123-4567</p>
+                    <p><i>✉️</i> cs.department@university.edu</p>
+                    <p><i>🕒</i> Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    
+                    <div class="map">
+                        <!-- Replace with an actual map if needed -->
+                        <img src="https://placehold.co/600x300" alt="Map" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== FOOTER ====================-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#faculty">Faculty</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Faculty Resources</a></li>
+                        <li><a href="#">Research Opportunities</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><span>fb</span></a>
+                        <a href="#"><span>tw</span></a>
+                        <a href="#"><span>in</span></a>
+                        <a href="#"><span>ig</span></a>
+                    </div>
+
+                    <p style="margin-top: 20px;">Subscribe to our newsletter:</p>
+                    <form style="margin-top: 10px; display: flex;" autocomplete="on">
+                        <label for="subscribe-email" style="display: none;">Email</label>
+                        <input type="email" id="subscribe-email"  name="email"  placeholder="Your email"  required  autocomplete="email"  style="flex: 1; padding: 10px; border: none; border-radius: 5px 0 0 5px;">
+                        <button type="submit" style="background-color: #ff6b00; border: none; padding: 10px 15px; color: white; border-radius: 0 5px 5px 0; cursor: pointer;">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 Department of Computer Science. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

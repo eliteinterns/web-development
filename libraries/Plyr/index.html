@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Plyr Example Code | EliteInterns</title>
+  <link rel="icon" href="https://web.eliteinterns.in/assets/images/favicon.svg" type="image/x-icon" />
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Plyr Example Code | EliteInterns" />
+  <meta name="description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+  <meta name="keywords" content="EliteInterns, internship portal code, HTML example, CSS for internship website, JavaScript examples, JSON data, student internship website, web development internship, coding for interns, frontend example code">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://web.eliteinterns.in/libraries/Plyr/" />
+  <meta property="og:title" content="Plyr Example Code | EliteInterns" />
+  <meta property="og:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+  <meta property="og:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+  <meta property="og:image:alt" content="Plyr Example Code" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://web.eliteinterns.in/libraries/Plyr/" />
+  <meta property="twitter:title" content="Plyr Example Code | EliteInterns" />
+  <meta property="twitter:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+  <meta property="twitter:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+  <meta property="twitter:image:alt" content="Plyr Example Code" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Plyr Example Code | EliteInterns",
+      "description": "Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website.",
+      "url": "https://web.eliteinterns.in/libraries/Plyr/",
+      "image": "https://web.eliteinterns.in/assets/images/internship.png"
+    }
+  </script>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.3/dist/plyr.css" />
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .video-container {
+      width: 80%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .plyr {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-container">
+    <video id="player" class="plyr" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      
+      <!-- English Subtitles -->
+      <track label="English" kind="subtitles" srclang="en" src="movie_en.vtt" default>
+      
+      <!-- Spanish Subtitles -->
+      <track label="Español" kind="subtitles" srclang="es" src="movie_sp.vtt">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.3/dist/plyr.polyfilled.js"></script>
+  
+  <script>
+    const player = new Plyr('#player');
+  </script>
+
+</body>
+</html>

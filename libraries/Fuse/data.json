@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Apple",
+        "description": "A tasty red fruit",
+        "category": "Fruit"
+    },
+    {
+        "title": "Banana",
+        "description": "A long yellow fruit",
+        "category": "Fruit"
+    },
+    {
+        "title": "Carrot",
+        "description": "A healthy orange vegetable",
+        "category": "Vegetable"
+    },
+    {
+        "title": "Dragonfruit",
+        "description": "An exotic fruit",
+        "category": "Fruit"
+    },
+    {
+        "title": "Spinach",
+        "description": "Leafy green goodness",
+        "category": "Vegetable"
+    }
+]

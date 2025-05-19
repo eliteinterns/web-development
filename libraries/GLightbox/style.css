@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  .card-title {
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+
+  

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Urban Shadows",
+        "description": "City architecture with dramatic lighting",
+        "imgSrc": "https://placehold.co/800x800",
+        "category": "photography"
+    },
+    {
+        "id": 2,
+        "title": "Colorful Abstractions",
+        "description": "Experimental color study with mixed media",
+        "imgSrc": "https://placehold.co/800x800",
+        "category": "art"
+    },
+    {
+        "id": 3,
+        "title": "Portrait Study",
+        "description": "Exploring human emotions through portraiture",
+        "imgSrc": "https://placehold.co/800x800",
+        "category": "photography"
+    },
+    {
+        "id": 4,
+        "title": "Natural Patterns",
+        "description": "Finding geometry in natural environments",
+        "imgSrc": "https://placehold.co/800x800",
+        "category": "photography"
+    },
+    {
+        "id": 5,
+        "title": "Textural Landscapes",
+        "description": "Mixed media exploration of terrain",
+        "imgSrc": "https://placehold.co/800x800",
+        "category": "art"
+    },
+    {
+        "id": 6,
+        "title": "Street Stories",
+        "description": "Capturing fleeting moments in urban life",
+        "imgSrc": "https://placehold.co/800x800",
+        "category": "photography"
+    },
+    {
+        "id": 7,
+        "title": "Minimal Spaces",
+        "description": "Studies in negative space and form",
+        "imgSrc": "https://placehold.co/800x800",
+        "category": "photography"
+    },
+    {
+        "id": 8,
+        "title": "Chromatic Harmony",
+        "description": "Digital color exploration",
+        "imgSrc": "https://placehold.co/800x800",
+        "category": "art"
+    }
+]

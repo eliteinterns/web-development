@@ -1,0 +1,20 @@
+[
+    {
+        "date": "May 5, 2025",
+        "title": "Campus Hidden Spots Tour",
+        "description": "Discover secret study spots, relaxation areas, and historical locations that most students never see.",
+        "image": "https://placehold.co/400x250"
+    },
+    {
+        "date": "May 12, 2025",
+        "title": "Leadership Workshop",
+        "description": "Learn essential leadership skills from experienced seniors and faculty members in this interactive session.",
+        "image": "https://placehold.co/400x250"
+    },
+    {
+        "date": "May 20, 2025",
+        "title": "End of Semester Social",
+        "description": "Join us for food, games, and networking to celebrate the end of another successful semester.",
+        "image": "https://placehold.co/400x250"
+    }
+]

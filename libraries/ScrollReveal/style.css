@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.section:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+.section:nth-child(even) {
+    background-color: #d0eaff;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.3em;
+    max-width: 600px;
+}

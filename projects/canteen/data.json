@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Avocado Toast",
+        "category": "breakfast",
+        "price": 5.99,
+        "description": "Whole grain toast topped with mashed avocado, cherry tomatoes, and feta cheese.",
+        "image": "https://placehold.co/300x200"
+    },
+    {
+        "id": 2,
+        "name": "Breakfast Burrito",
+        "category": "breakfast",
+        "price": 6.49,
+        "description": "Scrambled eggs, black beans, cheese, and salsa wrapped in a whole wheat tortilla.",
+        "image": "https://placehold.co/300x200"
+    },
+    {
+        "id": 3,
+        "name": "Veggie Wrap",
+        "category": "lunch",
+        "price": 7.99,
+        "description": "Fresh vegetables, hummus, and feta cheese wrapped in a spinach tortilla.",
+        "image": "https://placehold.co/300x200"
+    },
+    {
+        "id": 4,
+        "name": "Chicken Caesar Salad",
+        "category": "lunch",
+        "price": 8.99,
+        "description": "Grilled chicken, romaine lettuce, parmesan cheese, and croutons with Caesar dressing.",
+        "image": "https://placehold.co/300x200"
+    },
+    {
+        "id": 5,
+        "name": "Pasta Primavera",
+        "category": "dinner",
+        "price": 9.99,
+        "description": "Whole wheat pasta with seasonal vegetables in a light cream sauce.",
+        "image": "https://placehold.co/300x200"
+    },
+    {
+        "id": 6,
+        "name": "Teriyaki Rice Bowl",
+        "category": "dinner",
+        "price": 10.99,
+        "description": "Brown rice topped with teriyaki chicken or tofu and steamed vegetables.",
+        "image": "https://placehold.co/300x200"
+    },
+    {
+        "id": 7,
+        "name": "Iced Coffee",
+        "category": "beverages",
+        "price": 3.49,
+        "description": "Cold brewed coffee served over ice with your choice of milk.",
+        "image": "https://placehold.co/300x200"
+    },
+    {
+        "id": 8,
+        "name": "Fruit Smoothie",
+        "category": "beverages",
+        "price": 4.99,
+        "description": "Blend of seasonal fruits, yogurt, and honey.",
+        "image": "https://placehold.co/300x200"
+    }
+]

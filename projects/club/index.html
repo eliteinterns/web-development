@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Campus Explorers Club | EliteInterns</title>
+    <link rel="icon" href="https://web.eliteinterns.in/assets/images/favicon.svg" type="image/x-icon" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Campus Explorers Club | EliteInterns" />
+    <meta name="description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta name="keywords" content="EliteInterns, internship portal code, HTML example, CSS for internship website, JavaScript examples, JSON data, student internship website, web development internship, coding for interns, frontend example code">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://web.eliteinterns.in/projects/club/" />
+    <meta property="og:title" content="Campus Explorers Club | EliteInterns" />
+    <meta property="og:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="og:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="og:image:alt" content="Campus Explorers Club | EliteInterns" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://web.eliteinterns.in/projects/club/" />
+    <meta property="twitter:title" content="Campus Explorers Club | EliteInterns" />
+    <meta property="twitter:description" content="Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website. Learn how we build responsive, interactive features for student engagement and project management." />
+    <meta property="twitter:image" content="https://web.eliteinterns.in/assets/images/internship.png" />
+    <meta property="twitter:image:alt" content="Campus Explorers Club | EliteInterns" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Campus Explorers Club | EliteInterns",
+        "description": "Explore example HTML, CSS, JavaScript, and JSON code snippets used in the EliteInterns internship program website.",
+        "url": "https://web.eliteinterns.in/projects/club/",
+        "image": "https://web.eliteinterns.in/assets/images/internship.png"
+        }
+    </script>
+
+    <!-- Style -->
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!--==================== HEADER ====================-->
+	<header>
+		<nav class="navbar">
+			<div class="logo">
+				Campus<span>Explorers</span>
+			</div>
+			<ul class="nav-links">
+				<li>
+					<a href="#home">Home</a>
+				</li>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#events">Events</a>
+				</li>
+				<li>
+					<a href="#join">Join Us</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+			<div class="menu-toggle">
+				☰
+			</div>
+		</nav>
+	</header>
+    
+    <!--==================== HERO ====================-->
+	<section class="hero" id="home">
+		<div class="hero-content">
+			<h1>Welcome to Campus Explorers</h1>
+			<p>Join our community of passionate students exploring new adventures, skills, and connections.</p><a class="cta-button" href="#join">Become a Member</a>
+		</div>
+	</section>
+    
+    <!--==================== ABOUT ====================-->
+	<section id="about">
+		<div class="container">
+			<h2 class="section-title">About Us</h2>
+			<div class="about-content">
+				<div class="about-text">
+					<p>Campus Explorers is a student-led organization dedicated to discovering the hidden gems of our campus and beyond. Founded in 2019, we've grown to over 200 active members.</p>
+					<p>Our mission is to create memorable experiences, foster meaningful connections, and develop leadership skills among students of all backgrounds and interests.</p>
+					<p>Whether you're interested in outdoor adventures, cultural explorations, or professional networking, there's a place for you in our community.</p>
+				</div>
+				<div class="about-image"><img alt="Club members at a recent event" src="https://placehold.co/500x350"></div>
+			</div>
+		</div>
+	</section>
+    
+    <!--==================== EVENTS ====================-->
+	<section id="events">
+		<div class="container">
+			<h2 class="section-title">Upcoming Events</h2>
+			<div class="events-grid"></div>
+		</div>
+	</section>
+    
+    <!--==================== JOIN ====================-->
+	<section id="join">
+		<div class="container">
+			<h2 class="section-title">Join Our Club</h2>
+			<div class="join-form">
+				<form id="membership-form" name="membership-form" autocomplete="on">
+                    <div class="form-group">
+                      <label for="name">Full Name</label>
+                      <input id="name" name="name" type="text" required autocomplete="name">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="email">Email Address</label>
+                      <input id="email" name="email" type="email" required autocomplete="email">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="major">Major/Department</label>
+                      <input id="major" name="major" type="text" autocomplete="organization">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="year">Year of Study</label>
+                      <input id="year" name="year" type="text" autocomplete="education-year">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="interests">What interests you about our club?</label>
+                      <textarea id="interests" name="interests" rows="4" autocomplete="off"></textarea>
+                    </div>
+
+                    <button class="submit-button" type="submit">Submit Application</button>
+                </form>
+			</div>
+		</div>
+	</section>
+    
+    <!--==================== CONTACT ====================-->
+	<section id="contact">
+		<div class="container">
+			<h2 class="section-title">Contact Us</h2>
+			<div class="contact-info">
+				<div class="contact-item">
+					<div class="contact-icon">
+						✉️
+					</div>
+					<h3>Email</h3>
+					<p>campusexplorers@university.edu</p>
+				</div>
+				<div class="contact-item">
+					<div class="contact-icon">
+						📍
+					</div>
+					<h3>Location</h3>
+					<p>Student Union Building, Room 302</p>
+				</div>
+				<div class="contact-item">
+					<div class="contact-icon">
+						⏰
+					</div>
+					<h3>Office Hours</h3>
+					<p>Monday-Friday: 1-4 PM</p>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+    <!--==================== FOOTER ====================-->
+	<footer>
+		<div class="container">
+			<div class="social-links">
+				<a class="social-link" href="#">FB</a> <a class="social-link" href="#">IG</a> <a class="social-link" href="#">TW</a> <a class="social-link" href="#">YT</a>
+			</div>
+			<p class="copyright">© 2025 Campus Explorers Club. All rights reserved.</p>
+		</div>
+	</footer>
+    
+    <!-- JavaScript -->
+	<script src="script.js"></script>
+</body>
+</html>

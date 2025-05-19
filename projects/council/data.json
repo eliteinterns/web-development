@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Spring Festival",
+        "date": "May 15, 2025",
+        "description": "Join us for food, games, and performances at our annual Spring Festival. All proceeds support student initiatives.",
+        "image": "https://placehold.co/350x200"
+    },
+    {
+        "title": "End of Year Gala",
+        "date": "June 2, 2025",
+        "description": "Celebrate another amazing school year with us at the annual End of Year Gala featuring dinner, awards, and dancing.",
+        "image": "https://placehold.co/350x200"
+    },
+    {
+        "title": "Teacher Appreciation Week",
+        "date": "May 5, 2025",
+        "description": "Help us show appreciation for our amazing teachers with daily events and surprises throughout the week.",
+        "image": "https://placehold.co/350x200"
+    }
+]
